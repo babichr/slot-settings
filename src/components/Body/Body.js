@@ -3,8 +3,10 @@ import ReactDOM from "react-dom";
 import "./Body.styl";
 import Picker from "../Picker/Picker";
 import Result from "../Result/Result";
+import Thumbler from "../Thumbler/Thumbler";
 import { coinValue } from "../../data/data";
 import { betValue } from "../../data/data";
+import { thumblers } from "../../data/data";
 
 
 class Body extends React.Component{
@@ -23,8 +25,15 @@ class Body extends React.Component{
 					</div>
 					<hr />
 					<div className="body__row">
-						<div className="body__col"></div>
-						<div className="body__col"></div>
+						{
+							thumblers.map( ( item, i )=> {
+								return (
+									<div key={i} className="body__col">
+										<Thumbler thumblerData={ item } />
+									</div>
+								)
+							})
+						}
 					</div>
 				</div>
 			</div>

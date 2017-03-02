@@ -27,28 +27,36 @@ export const coinValue = {
 			checked: true
 		},
 		{
-			value: 0.02 
+			value: 0.02 ,
+			checked: false
 		},
 		{
-			value: 0.05 
+			value: 0.05 ,
+			checked: false
 		},
 		{
-			value: 0.5 
+			value: 0.5 ,
+			checked: false
 		},
 		{
-			value: 0.1 
+			value: 0.1 ,
+			checked: false
 		},
 		{
-			value: 0.2 
+			value: 0.2 ,
+			checked: false
 		},
 		{
-			value: 0.5 
+			value: 0.5 ,
+			checked: false
 		},
 		{
-			value: 1 
+			value: 1 ,
+			checked: false
 		},
 		{
-			value: 2
+			value: 2,
+			checked: false
 		}
 	]
 };
@@ -62,37 +70,48 @@ export const betValue = {
 			checked: true
 		},
 		{
-			value: 2
+			value: 2,
+			checked: false
 		},
 		{
-			value: 3
+			value: 3,
+			checked: false
 		},
 		{
-			value: 4
+			value: 4,
+			checked: false
 		},
 		{
-			value: 5
+			value: 5,
+			checked: false
 		},
 		{
-			value: 10
+			value: 10,
+			checked: false
 		},
 		{
-			value: 20
+			value: 20,
+			checked: false
 		},
 		{
-			value: 30
+			value: 30,
+			checked: false
 		},
 		{
-			value: 40
+			value: 40,
+			checked: false
 		},
 		{
-			value: 50
+			value: 50,
+			checked: false
 		},
 		{
-			value: 100
+			value: 100,
+			checked: false
 		},
 		{
-			value: 200
+			value: 200,
+			checked: false
 		}
 	]
 };
@@ -101,13 +120,13 @@ export const thumblers = [
 	{
 		title: "Game sounds",
 		desc: "Enable/Disable",
-		switch: [
+		switches: [
 			{
-				swith: true,
+				checked: true,
 				name: "on"
 			},
 			{
-				swith: false,
+				checked: false,
 				name: "off"
 			}
 		]
@@ -115,13 +134,13 @@ export const thumblers = [
 	{
 		title: "Music",
 		desc: "Enable/Disable",
-		switch: [
+		switches: [
 			{
-				swith: true,
+				checked: true,
 				name: "on"
 			},
 			{
-				swith: false,
+				checked: false,
 				name: "off"
 			}
 		]
