@@ -1,6 +1,17 @@
 .body
 	padding 90px 180px 150px
 	background-color #1f1e22
+	min-height 100vh
+	@media (min-width: 1800px) and (max-width: 2200px)
+		padding 60px 50px 90px
+	@media (min-width: 1200px) and (max-width: 1799px)
+		padding 60px
+	@media (min-width: 1000px) and (max-width: 1199px)
+		padding 50px
+	@media (min-width: 768px) and (max-width: 999px)
+		padding 40px
+	@media (max-width: 767px)
+		padding 30px 15px
 	&__row
 		margin 0 -40px
 		&:before
@@ -13,10 +24,20 @@
 		float left
 		padding 0 40px
 		width 50%
+		@media (max-width: 767px)
+			width 100%
 		&_left
 			width 75%
+			@media (min-width: 768px) and (max-width: 999px)
+				width 100%
+			@media (max-width: 767px)
+				width 100%
 		&_right
 			width 25%
+			@media (min-width: 768px) and (max-width: 999px)
+				width 100%
+			@media (max-width: 767px)
+				width 100%
 	hr
 		border-width 4px
 		border-color #121114

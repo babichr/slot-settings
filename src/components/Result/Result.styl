@@ -1,4 +1,7 @@
 .result
+	@media (min-width: 768px) and (max-width: 999px)
+		max-width 200px
+		margin 0 0 20px
 	&__title
 		margin-bottom 60px
 		color #4fa6ff
@@ -6,6 +9,21 @@
 		font-weight 500
 		text-transform uppercase
 		text-align center
+		@media (min-width: 1800px) and (max-width: 2200px)
+			font-size 40px
+			margin-bottom 40px
+		@media (min-width: 1200px) and (max-width: 1799px)
+			font-size 30px
+			margin-bottom 30px
+		@media (min-width: 1000px) and (max-width: 1199px)
+			font-size 25px
+			margin-bottom 25px
+		@media (min-width: 768px) and (max-width: 999px)
+			font-size 20px
+			margin-bottom 20px
+		@media (max-width: 767px)
+			font-size 18px
+			margin-bottom 20px
 	&__box
 		padding 175px 0
 		background #17161a
@@ -17,3 +35,20 @@
 		font-weight 500
 		text-transform uppercase
 		text-align center
+		@media (min-width: 1800px) and (max-width: 2200px)
+			padding 140px 0
+			font-size 60px
+		@media (min-width: 1200px) and (max-width: 1799px)
+			font-size 40px
+			padding 85px 0
+		@media (min-width: 1000px) and (max-width: 1199px)
+			font-size 30px
+			padding 65px 0
+		@media (min-width: 768px) and (max-width: 999px)
+			font-size 30px
+			padding 50px 0
+		@media (max-width: 767px)
+			font-size 25px
+			padding 20px 0
+			max-width 500px
+			margin 0 auto 20px
